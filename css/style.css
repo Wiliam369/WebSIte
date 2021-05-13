@@ -1,0 +1,173 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.collapse{
+    justify-content: flex-end;
+}
+
+.navbar-nav a{
+    margin-right: 17px;
+}
+
+.carousel{
+    background-image: url(/img/Programer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content-C{
+    color: aliceblue;    
+    
+}
+
+.content-C h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.content-C p {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+.boton{
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 1px solid #0016b0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media (min-width: 1281px ){
+    .carousel{
+        height: 95vh;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .content-C{
+        display: flex;
+    align-items: left;
+    flex-direction: column;
+    }
+
+    .content-C h1{
+        font-size: 50px;
+    margin-bottom: 40px;
+    }
+
+    .content-C p {
+        font-size: 35px;
+        margin-bottom: 10%;
+    }
+
+
+}
+
+@media (max-width: 412px) and (min-width: 360px){
+    .content-C h1{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 414px) and (min-width: 375px) {
+    .content-C h1{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .content-C p{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 320px){
+    .content-C h1{
+        font-size: 20px;
+    }
+
+    .content-C p{
+        font-size: 20px;
+    }
+
+    .boton{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 768px){
+    .carousel{
+        text-align: unset;
+        }
+    
+        .content-C{
+            margin-left: 5%;
+        }
+    
+        .content-C h1{
+            font-size: 45px;
+        margin-bottom: 40px;
+        }
+    
+        .content-C p {
+            font-size: 45px;
+        }
+    
+        .boton{
+            margin-top: 5%;
+            margin-left: 15%;
+        } 
+}
+
+@media (min-width: 1024px){
+    .carousel{
+        text-align: unset;
+        }
+    
+        .content-C{
+            margin-left: 5%;
+        }
+    
+        .content-C h1{
+            font-size: 48px;
+        margin-bottom: 40px;
+        }
+    
+        .content-C p {
+            font-size: 48px;
+        }
+    
+        .boton{
+            margin-top: 5%;
+            margin-left: 15%;
+        }
+}
